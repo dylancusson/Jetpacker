@@ -36,7 +36,6 @@ instance_create_depth (x, y, depth - 1, oPlayerGun);
 jetpack = instance_create_depth (x, y, depth + 1, oPlayerJetpack);
 
 //Jetpack Variables
-
 currentFuel = oGameController.playerMaxFuel;
 maxFuel     = oGameController.playerMaxFuel;
 fuelLossRate = oGameController.playerFuelLossRate;

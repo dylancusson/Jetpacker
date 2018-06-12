@@ -57,8 +57,6 @@ else if (leftKeyDown && !place_meeting(x - 1, y, oBlockParent))
 }
 
 
-
-
 //Apply friction when not moving left or right
 if (!rightKeyDown && !leftKeyDown) 
 {
