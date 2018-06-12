@@ -9,6 +9,7 @@ if (--shotTimer <= 0)
 			//Move gun back recoil amount
 			x -= image_xscale * recoilAmt;
 			
+			/** Opted for bullet generating system
 			//Straight Bullet
 			instBullet1 = instance_create_layer(x, y + 32, global.mainLayer, oPlayerGunBullet);
 			instBullet1.direction = (oPlayer.image_xscale == 1) ? 0 : 180;
@@ -26,6 +27,23 @@ if (--shotTimer <= 0)
 			instBullet3.direction = (oPlayer.image_xscale == 1) ? 355 : 185;
 			instBullet3.speed = 25;
 			instBullet3.image_xscale = oPlayer.image_xscale;
+			**/
+			
+			
+			// New way to do it with splay angle and ammount of bullets fired in single shot			
+			//Loop through how many bullets are shot
+			for (var i = 0; i < splayAmmount; i += 1)
+			{
+			var positiveAngle = ((splayRange / 2) - ((splayRange / (splayAmmount - 1)) * i)) % 360;
+			var negativeAngle = ((splayRange / (splayAmmount - 1) * i) + (180 - (splayRange / 2))) % 360;//Is this correct?
+			//Create and give force to bullet
+				with instance_create_layer(x, y + 32, global.mainLayer, oPlayerGunBullet) {
+				direction = (oPlayer.image_xscale == 1) ? positiveAngle : negativeAngle; //Need to calculate changing angle for each bullet and change angles accordingly
+				speed = 25; //should make this bullets speed for upgrading ammo?
+				image_xscale = oPlayer.image_xscale;
+				}
+				
+			}
 			
 			audio_play_sound(sfx_shotgun, 10, false);
 			

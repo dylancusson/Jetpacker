@@ -5,16 +5,6 @@
     "name": "oPlayerGun",
     "eventList": [
         {
-            "id": "f5fcce5d-8ed2-4b55-9fe3-0c3ada47b82c",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "58cde758-81db-431b-8983-62de1ac1e9f2"
-        },
-        {
             "id": "c79ef6ff-24fb-45b5-b4d6-377e962f571a",
             "modelName": "GMEvent",
             "mvc": "1.0",
