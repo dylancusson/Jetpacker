@@ -1,3 +1,3 @@
 /// @description Jump Pad Check for Player Collision
 
-oPlayer.ySpeed -= 8;
+oPlayer.ySpeed = -25;
