@@ -913,6 +913,25 @@
             }
         },
         {
+            "Key": "9ff1a483-9535-460d-a4d7-3ad6589b1cf9",
+            "Value": {
+                "id": "dfb1bcda-b45d-42e0-901c-d5e16fb713b4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oBlockCrumble\/oBlockCrumble.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "ae889e09-a651-4c20-a402-b092cf713d1e",
@@ -1365,6 +1384,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sBlock\/sBlock.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9801551-04c8-4a69-b06d-cd27625f8702",
+            "Value": {
+                "id": "b06331ab-8617-49b4-a96f-de4009a5c8f0",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sBlockCrumble\/sBlockCrumble.yy",
                 "resourceType": "GMSprite"
             }
         },

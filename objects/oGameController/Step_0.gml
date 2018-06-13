@@ -15,3 +15,8 @@ if (keyboard_check_pressed(vk_pagedown))
 		room_goto_previous();
 	}
 }
+
+if (keyboard_check_pressed(ord("R"))) 
+{
+	room_restart();
+}
