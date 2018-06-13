@@ -666,6 +666,25 @@
             }
         },
         {
+            "Key": "75b6546a-4860-4d98-96fd-0477a915acf2",
+            "Value": {
+                "id": "817e36e6-9413-46f9-be28-e23139bab3b6",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "shaders\/shaderBloom\/shaderBloom.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "784c049d-b69b-4d52-af86-90b8c183ddc9",
             "Value": {
                 "id": "a9d65ef2-ece3-4752-a6f8-694c591815e6",
