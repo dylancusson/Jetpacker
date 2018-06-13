@@ -699,7 +699,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "shaders\/shdFlash\/shdFlash.yy",
+                "resourcePath": "shaders\/shdColorOverlay\/shdColorOverlay.yy",
                 "resourceType": "GMShader"
             }
         },
