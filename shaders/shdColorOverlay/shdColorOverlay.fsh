@@ -5,9 +5,9 @@ varying vec2 v_vTexcoord;
 varying vec4 v_vColour;
 
 uniform float _alpha;
-uniform int _red;
-uniform int _green;
-uniform int _blue;
+uniform float _red;
+uniform float _green;
+uniform float _blue;
 
 void main()
 {
