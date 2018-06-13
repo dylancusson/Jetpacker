@@ -31,7 +31,7 @@ if (rightKeyDown)
 	image_xscale = 1;
 }
 
-if (leftKeyDown)  
+else if (leftKeyDown)  
 {
 	image_xscale = -1;
 }

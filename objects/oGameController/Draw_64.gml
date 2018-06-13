@@ -1,2 +1,2 @@
 /// @description Draw speed as GUI element
-draw_text(8,8, "Speed: " + string(oPlayer.xSpeed));
+draw_text(8,8, "Speed: " + string(abs(oPlayer.xSpeed)));

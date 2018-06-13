@@ -10,7 +10,7 @@ shootKey = global.shootKey;
 
 //Initialize Physics Variables
 maxRunSpeed  = 4.8;
-maxMoveSpeed = 64;
+maxMoveSpeed = 35;
 maxFallSpeed = 12;
 maxJetSpeed  = 4;
 
