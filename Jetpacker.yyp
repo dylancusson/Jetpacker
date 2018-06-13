@@ -552,6 +552,25 @@
             }
         },
         {
+            "Key": "5b1bf647-c524-4908-a469-e5ebe0d1c69c",
+            "Value": {
+                "id": "4f7a3a4f-5914-4ee5-b4e1-0001044d2eec",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "tilesets\/ts_Markers\/ts_Markers.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "5b7b9f52-c6c9-444a-b9d7-de1d0b41f022",
             "Value": {
                 "id": "5d309315-a795-4ab3-a99c-3cc7e35abd21",
@@ -948,6 +967,25 @@
                 ],
                 "resourcePath": "objects\/oBlockCrumble\/oBlockCrumble.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a63c240a-cde2-47d2-8d1d-e0ec02b6f9e2",
+            "Value": {
+                "id": "10537313-057c-4c85-8752-b42f63ca4ecd",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sMarker\/sMarker.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
