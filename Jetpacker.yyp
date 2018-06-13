@@ -699,7 +699,7 @@
                 "resourceCreationConfigs": [
                     "default"
                 ],
-                "resourcePath": "shaders\/shaderBloom\/shaderBloom.yy",
+                "resourcePath": "shaders\/shdFlash\/shdFlash.yy",
                 "resourceType": "GMShader"
             }
         },
