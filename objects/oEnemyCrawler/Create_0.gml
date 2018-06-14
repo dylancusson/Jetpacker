@@ -1,8 +1,3 @@
-/// @description Initialize Enemy
-enum enemyState {
-	idle,
-	wondering,
-	attacking
-}
+/// @description Initialize Crawler
 
-state = enemyState.wondering
+scr_InitializeCrawler();

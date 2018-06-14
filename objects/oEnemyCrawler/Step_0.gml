@@ -1,5 +1,5 @@
 /// @description Player in range check
-
+/***
 if (state == enemyState.wondering) {
 	sprite_index = sEnemyCrawlerMoving;
 	
@@ -17,3 +17,6 @@ if (state == enemyState.attacking) {
 		state = enemyState.wondering;
 	}
 }
+***/
+
+scr_UpdateCrawler();

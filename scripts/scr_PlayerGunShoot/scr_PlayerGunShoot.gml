@@ -19,11 +19,12 @@ if (--shotTimer <= 0)
 			var negativeAngle = ((splayRange / (splayAmmount - 1) * i) + (180 - (splayRange / 2))) % 360;
 			
 			//Create and give force to bullet
-				with instance_create_layer(x, y + 32, global.mainLayer, oPlayerGunBullet) {
+			with instance_create_layer(x, y + 32, global.mainLayer, oPlayerGunBullet) 
+			{
 				direction = (oPlayer.image_xscale == 1) ? positiveAngle : negativeAngle;
 				speed = 25; //should make this bullets speed for upgrading ammo?
 				image_xscale = oPlayer.image_xscale;
-				}
+			}
 				
 			}
 			
