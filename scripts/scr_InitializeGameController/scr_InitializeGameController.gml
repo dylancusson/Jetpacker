@@ -26,3 +26,4 @@ playerGunFireRate    = 50;
 playerMaxFuel		 = 50;
 playerFuelLossRate   = .5;
 playerFuelChargeRate = 25;
+playerItemCount	     = 0;

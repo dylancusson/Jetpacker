@@ -77,6 +77,25 @@
             }
         },
         {
+            "Key": "01b7a4b2-0116-4ec8-af8b-d9210590589a",
+            "Value": {
+                "id": "75b76e77-3426-4e3f-a754-679ce9f55162",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oItemParent\/oItemParent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "02f01227-2f88-4bab-99d6-5ff6c239173c",
             "Value": {
                 "id": "09eb67f7-8b7b-451e-a2d7-eeb6c9718faa",
@@ -1179,6 +1198,25 @@
             }
         },
         {
+            "Key": "c00ba9eb-abf1-4a23-8230-66985dcaa87e",
+            "Value": {
+                "id": "f3aacf31-a429-4a53-befb-a42da648dda4",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oItem\/oItem.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c1948640-86c1-4816-bb4d-777f87667616",
             "Value": {
                 "id": "6f1fe9a3-d171-4dae-bd94-aeaba2297318",
@@ -1574,6 +1612,25 @@
                     "default"
                 ],
                 "resourcePath": "sprites\/sPlayerInAir\/sPlayerInAir.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fbf75778-1e2d-417b-97b3-e59e8b2c9fd8",
+            "Value": {
+                "id": "d81e231e-1df2-44e2-995b-8e3f56011580",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sDropBag\/sDropBag.yy",
                 "resourceType": "GMSprite"
             }
         },

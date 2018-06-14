@@ -122,3 +122,4 @@ else
 	move_contact_solid(point_direction(x, y, x, y + ySpeed), maxFallSpeed);
 	ySpeed = 0;
 }
+

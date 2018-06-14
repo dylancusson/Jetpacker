@@ -41,3 +41,6 @@ maxFuel     = oGameController.playerMaxFuel;
 fuelLossRate = oGameController.playerFuelLossRate;
 fuelChargeRate = oGameController.playerFuelChargeRate;
 
+//Item variables
+itemCount = oGameController.playerItemCount;
+
