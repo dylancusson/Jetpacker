@@ -305,6 +305,25 @@
             }
         },
         {
+            "Key": "270cfa19-72c9-46d7-89e9-18cb3d36f32d",
+            "Value": {
+                "id": "3b970d84-d903-4a94-bdd5-2118fa10aebb",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sounds\/Guitar_D_Sound\/Guitar_D_Sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2be12771-3b7f-4483-ab86-23fb2258dc60",
             "Value": {
                 "id": "50643728-79bb-4be3-b410-7dad75681e43",
