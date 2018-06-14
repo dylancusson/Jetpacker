@@ -723,6 +723,25 @@
             }
         },
         {
+            "Key": "6a6f3b5f-64d2-46f1-b661-18e79b444f1a",
+            "Value": {
+                "id": "839f6dae-ed4a-4adf-bb22-5becef1de383",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sEnemyCrawlerSpit\/sEnemyCrawlerSpit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6d9172c4-f202-4c81-a87d-ae01ff5a7da2",
             "Value": {
                 "id": "04a6192b-fe69-4671-a956-aac1e93f8c84",
