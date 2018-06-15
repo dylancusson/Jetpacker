@@ -495,6 +495,25 @@
             }
         },
         {
+            "Key": "3cedd510-a7d1-4525-bc47-4296577fc5f2",
+            "Value": {
+                "id": "17d4d470-497b-461b-bccd-fc185b16dfc1",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "objects\/oEnemyCrawlerSpit\/oEnemyCrawlerSpit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3cf8fd0a-a2ce-40f4-bfcd-aa11daa79678",
             "Value": {
                 "id": "b94698c7-bac6-4195-b029-99892f36ea2a",
@@ -1537,6 +1556,25 @@
                 ],
                 "resourcePath": "scripts\/scr_PlayerStateFalling\/scr_PlayerStateFalling.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cbe161cf-e1c0-4a5e-995d-9a3f4b8feeac",
+            "Value": {
+                "id": "88c2082f-c7cb-4379-a4fa-78c066bdad7e",
+                "modelName": "GMResourceInfo",
+                "mvc": "1.0",
+                "configDeltaFiles": [
+                    
+                ],
+                "configDeltas": [
+                    
+                ],
+                "resourceCreationConfigs": [
+                    "default"
+                ],
+                "resourcePath": "sprites\/sEnemyCrawlerSpitting\/sEnemyCrawlerSpitting.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

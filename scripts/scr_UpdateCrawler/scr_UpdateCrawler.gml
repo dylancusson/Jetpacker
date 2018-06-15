@@ -11,11 +11,27 @@ switch (state) {
 		break;
 		
 	case crawlerState.moving:
+		sprite_index = sEnemyCrawlerMoving;
+		image_speed  = (xSpeed / crawlerChaseSpeed);
+		
+		//Check for player within range and switch to chasing state
+
+		if (abs(oPlayer.y - y) < yRange) 
+		{
+			crawlerDir = (oPlayer.x > x) ? 1 : -1;
+	
+			if (collision_line(x, y, x + (xRange * crawlerDir), oPlayer.y, oPlayer, false, false))
+			{
+				state = crawlerState.chasing;
+			}
+		}
+		
 		// Detect if it is free to move
 		if (!place_meeting(x + xSpeed + (32 * crawlerDir), y, oBlockParent) && !place_free(x + xSpeed, y + 1))
 		{
 			xSpeed = crawlerSpeed * crawlerDir;
 		}
+		//if not free, turn around and change speed to move in that direction
 		else
 		{
 			crawlerDir *= -1;
@@ -24,13 +40,21 @@ switch (state) {
 		break;
 		
 	case crawlerState.chasing:
+		sprite_index = sEnemyCrawlerMoving;
+		image_speed  = (xSpeed / crawlerChaseSpeed);
 		
+		//Check for player within attack range
+		if (collision_ellipse(x - (xRange * .6), y - yRange, x + (xRange * .6), y + yRange, oPlayer, false, false))
+		{
+			state = crawlerState.attacking;
+		}
 		// Detect if it is free to move
 		if (!place_meeting(x + xSpeed + (32 * crawlerDir), y, oBlockParent) && !place_free(x + xSpeed, y + 1))
 		{
 			xSpeed = crawlerChaseSpeed * crawlerDir;
 			
 		}
+		//if not free, turn around and change speed to move in that direction
 		else
 		{
 			crawlerDir *= -1;
@@ -40,39 +64,32 @@ switch (state) {
 		
 	case crawlerState.attacking:
 		xSpeed = 0;
-		sprite_index = sEnemyCrawlerGrabbing;
-		
-		if (image_speed > 0)
+		//If we are able to shoot (not cooling down)
+		if (!justShot)
 		{
-			if (image_index == 4) 
+			sprite_index = sEnemyCrawlerSpitting;
+			image_speed = 1;
+			//Create bullet
+			with instance_create_layer(x, y, global.mainLayer, oEnemyCrawlerSpit) 
 			{
-				show_debug_message("Shot");
+				direction = (oEnemyCrawler.image_xscale == 1) ? 0 : 180;
+				speed = 8; //should make this bullets speed for upgrading ammo?
+				image_xscale = oEnemyCrawler.image_xscale;
 			}
-			else if (image_index > image_number - 1)
-			{
-				state = crawlerState.moving;
-			}
+			justShot = true;
+			alarm_set(0, 120); //2 second alarm for cooldown
 		}
+		//When animation ends, set state back to moving
+		else if (image_index > (image_number -1))
+		{
+			state = crawlerState.moving;
+		}
+		
 		break;
-	
-	
 	
 }
 //-------------------------------------------------------------------------------------------------------------------
-//Check for player within range and switch to chasing state
 
-if (abs(oPlayer.y - y) < yRange) 
-{
-	if (collision_line(x, y, x + (xRange * crawlerDir), oPlayer.y, oPlayer, false, false))
-	{
-		state = crawlerState.chasing;
-	}
-}
-
-else 
-{
-	state = crawlerState.moving;
-}
 
 
 

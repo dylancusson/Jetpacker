@@ -8,6 +8,7 @@ if (!place_meeting(x, y + 1, oBlockParent))
 if (jumpKeyPressed)
 {
 	ySpeed = -jumpPower;
+	effect_create_below(ef_smokeup, x, y+62, choose(0, .03, .06), c_ltgray);
 	vertState = verticalState.jumping;
 }
 //Instantly recharge jetpack when touching ground
